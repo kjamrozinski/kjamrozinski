@@ -1,14 +1,8 @@
 # Kacper Jamroziński | Junior Full-Stack & IT Support
+
 ![Profile views](https://komarev.com/ghpvc/?username=kjamrozinski&label=Profile%20views&color=0e75b6&style=flat)
 
-Building practical web applications and understanding how systems work end-to-end — from frontend, through backend, to OS and basic cloud infrastructure.
-
----
-
-- 🎓 Computer Science (Cloud Computing Architecture) – final year student  
-- 🧑‍💻 Engineering thesis: **TimeFlow** – Full-Stack PWA (React + Node.js)  
-- 🛠 Interested in software development, IT support and system administration  
-- 🌱 Currently improving React, backend patterns and Linux/Windows administration  
+Building practical full-stack web applications with focus on backend, APIs and system fundamentals.
 
 ---
 
@@ -22,12 +16,23 @@ Full-stack web application developed as an engineering thesis.
 - Frontend: React 18, Vite, Tailwind CSS
 - Backend: Node.js, Express
 - Database: SQLite
-- API: REST (CRUD, auth, user preferences)
+- API: REST (CRUD, authentication, user preferences)
 - Security: PBKDF2 password hashing, HMAC / x-api-key
 - PWA: offline mode, caching, manifest
-- External API: Open-Meteo (weather)
+- External API: Open-Meteo (weather integration)
 
 🔗 Repository: https://github.com/kjamrozinski/TimeFlow
+
+---
+
+## 👨‍💻 About me
+
+I am a final-year Computer Science student at WSB Merito University in Wrocław, specializing in Cloud Computing Architecture.
+
+I have hands-on experience in developing client–server applications, designing REST APIs, working with relational databases, and implementing basic security mechanisms.  
+I also work with Windows, Linux and macOS systems and understand how applications interact with the operating system and runtime environment.
+
+I am looking for a junior position in **software development** or **IT support / helpdesk**, where I can further develop my technical and system skills.
 
 ---
 
