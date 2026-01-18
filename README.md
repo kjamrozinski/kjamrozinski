@@ -1,4 +1,5 @@
 # Kacper Jamroziński | Junior Full-Stack & IT Support
+![Profile views](https://komarev.com/ghpvc/?username=kjamrozinski&label=Profile%20views&color=0e75b6&style=flat)
 
 Building practical web applications and understanding how systems work end-to-end — from frontend, through backend, to OS and basic cloud infrastructure.
 
