@@ -2,7 +2,7 @@
 
 ![Profile views](https://komarev.com/ghpvc/?username=kjamrozinski&label=Profile%20views&color=0e75b6&style=flat)
 
-Building practical full-stack web applications with focus on backend, APIs and system fundamentals.
+Building practical full-stack web applications, APIs and system fundamentals.
 
 ---
 
