@@ -7,6 +7,18 @@ Wrocław, Poland
 
 ---
 
+## Currently building
+
+**PrimeAI**  
+I have recently started working on a new project focused on AI-powered solutions and automation.
+
+- AI-driven product concept
+- Modern web and cloud-oriented approach
+- Focus on practical business applications
+- Early-stage development
+
+---
+
 ## Main project
 
 ### TimeFlow – Daily Planner (engineering thesis)
