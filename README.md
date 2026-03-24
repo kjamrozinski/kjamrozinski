@@ -9,7 +9,8 @@ Wrocław, Poland
 
 ## Currently building
 
-**PrimeAI**  
+### PrimeAI
+
 I have recently started working on a new project focused on AI-powered solutions and automation.
 
 - AI-driven product concept
