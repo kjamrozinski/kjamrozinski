@@ -1,80 +1,53 @@
-# Kacper Jamroziński                                                                                                                                                                                                     
-   
-  **Full-Stack Developer · AI Automation · Wrocław, Poland**                                                                                                                                                               
-                       
-  ![Profile views](https://komarev.com/ghpvc/?username=kjamrozinski&label=Profile%20views&color=0e75b6&style=flat)
+# Hey, I'm Kacper 👋
 
-  ---
+CS student from Wrocław, Poland. I build automation tools, mess around with AI APIs and generally try to make repetitive stuff disappear. Most of my real projects live at **PrimeAI** — a small AI agency I'm part of.
 
-  ## What I'm building
+---
 
-  At **PrimeAI** — an AI-focused agency — I design and ship internal automation tools that connect project management, team communication, and AI APIs into one coherent workflow.
+## What I'm working on
 
-  ### prime-recap
-  Daily AI digest bot for development teams.
-  Every evening it reads Mattermost channel threads, detects Plane task references (`PROJ-42` or issue URLs), sends them to Claude via OpenRouter, and posts structured AI summaries directly as comments on the relevant
-  Plane issues. Threads without a task reference go to a digest channel.
-  *Source code private — internal tooling for PrimeAI*
+### [prime-recap](https://github.com/kjamrozinski/prime-recap)
+A bot that reads Mattermost threads every evening, figures out which ones are about a Plane task, and posts an AI-generated summary as a comment directly on the issue. No more "what did we even decide today." Runs at 19:00 via cron, built in TypeScript, deployed in Docker.
 
-  `TypeScript` `Node.js` `Docker` `OpenRouter` `Claude` `Mattermost API` `Plane API`
+`TypeScript` `Node.js` `Docker` `Claude API` `OpenRouter` `Mattermost` `Plane`
 
-  ### Lead Hunter (`/leads`)
-  Slash command in Mattermost that runs a full prospecting pipeline on demand.
-  Takes an industry + city, queries Google Maps via Apify, enriches results through Apollo (emails, LinkedIn, CEO/CTO contacts), and delivers a ready-to-use CSV.
-  *Source code private — internal tooling for PrimeAI*
+---
 
-  `n8n` `Apify` `Apollo API` `Mattermost Webhooks`
+### Mattermost ↔ Plane automation *(private)*
+Two workflows running on n8n:
+- `/task` slash command that creates Plane issues from chat with flags for project, assignee, priority, milestone and dates
+- Event listener that pushes real-time notifications back to Mattermost on every status/priority/assignee change in Plane
 
-  ### Mattermost ↔ Plane integration
-  Two-way sync between chat and project management:
-  - `/task` slash command to create Plane issues from Mattermost with flags for project, assignee, priority, milestone and dates
-  - Real-time event notifications back to Mattermost on every status/priority/assignee change in Plane
-  - *Source code private — internal tooling for PrimeAI*
+`n8n` `Plane API` `Mattermost Webhooks`
 
-  `n8n` `Plane API` `Mattermost API` `Webhooks`
+---
 
-  ---
+### Lead Hunter — `/leads` *(private)*
+Slash command in Mattermost that runs a full prospecting pipeline on demand. Give it an industry + city, it queries Google Maps via Apify, enriches results through Apollo (emails, LinkedIn, CEO/CTO contacts) and spits out a ready CSV.
 
-  ## Other projects
+`n8n` `Apify` `Apollo API`
 
-  ### TimeFlow — Daily Planner *(engineering thesis)*
-  Full-stack PWA built as an engineering project. Offline-capable daily planner with authentication and REST API.
+---
 
-  `React` `Node.js` `Express` `SQLite` `PWA`
+### [TimeFlow](https://github.com/kjamrozinski/TimeFlow) — engineering thesis
+Full-stack PWA daily planner. Built it as my engineering thesis — offline-capable, with auth and a REST API.
 
-  🔗 [github.com/kjamrozinski/TimeFlow](https://github.com/kjamrozinski/TimeFlow)
+`React` `Node.js` `Express` `SQLite` `PWA`
 
-  ---
+---
 
-  ## Tech
+## Stack I actually use
 
-  **Languages**
-  TypeScript · JavaScript (ES6+) · HTML/CSS
+TypeScript · Node.js · Docker · n8n · REST APIs · Git
 
-  **Frontend**
-  React · PWA
+Learning: more backend, better system design, less spaghetti code
 
-  **Backend**
-  Node.js · Express · REST APIs
+---
 
-  **Automation & AI**
-  n8n · OpenRouter · LLM tool calling · Webhooks
+## Stats
 
-  **DevOps**
-  Docker · docker-compose · Linux (Ubuntu) · Microsoft Azure (basics)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kjamrozinski&layout=compact&theme=default)
 
-  **Tools**
-  Zod · pino · node-cron · Vitest · Git
+---
 
-  ---
-
-  ## GitHub Stats
-
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kjamrozinski&layout=compact&show_icons=true&theme=default)
-
-  ---
-
-  ## Languages
-  - Polish — native
-  - English — B2
-  - German — A2/B1
+🇵🇱 Wrocław · Open to interesting side projects
