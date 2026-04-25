@@ -14,12 +14,14 @@
   Daily AI digest bot for development teams.
   Every evening it reads Mattermost channel threads, detects Plane task references (`PROJ-42` or issue URLs), sends them to Claude via OpenRouter, and posts structured AI summaries directly as comments on the relevant
   Plane issues. Threads without a task reference go to a digest channel.
+  *Source code private — internal tooling for PrimeAI*
 
   `TypeScript` `Node.js` `Docker` `OpenRouter` `Claude` `Mattermost API` `Plane API`
 
   ### Lead Hunter (`/leads`)
   Slash command in Mattermost that runs a full prospecting pipeline on demand.
   Takes an industry + city, queries Google Maps via Apify, enriches results through Apollo (emails, LinkedIn, CEO/CTO contacts), and delivers a ready-to-use CSV.
+  *Source code private — internal tooling for PrimeAI*
 
   `n8n` `Apify` `Apollo API` `Mattermost Webhooks`
 
@@ -27,6 +29,7 @@
   Two-way sync between chat and project management:
   - `/task` slash command to create Plane issues from Mattermost with flags for project, assignee, priority, milestone and dates
   - Real-time event notifications back to Mattermost on every status/priority/assignee change in Plane
+  - *Source code private — internal tooling for PrimeAI*
 
   `n8n` `Plane API` `Mattermost API` `Webhooks`
 
